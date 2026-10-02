@@ -329,4 +329,8 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-*Last updated: September 2026*
+*Last updated: September 2026*---
+
+## Built by
+
+Built by Girish Lade — [ladestack.in](https://ladestack.in)

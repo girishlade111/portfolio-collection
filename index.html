@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio Collection — Built by Girish Lade</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
+    color: #e2e8f0;
+    display: flex; flex-direction: column; align-items: center;
+    padding: 3rem 1.5rem;
+  }
+  h1 { font-size: 2.5rem; margin-bottom: .5rem; text-align: center; }
+  h1 .accent { color: #E5322D; }
+  p.lead { color: #94a3b8; margin-bottom: 3rem; text-align: center; max-width: 640px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; width: 100%; max-width: 960px; }
+  .card {
+    background: rgba(255,255,255,.06);
+    backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255,255,255,.12);
+    border-radius: 1.25rem;
+    padding: 2rem 1.5rem;
+    text-decoration: none; color: inherit;
+    transition: transform .2s, border-color .2s;
+    display: block;
+  }
+  .card:hover { transform: translateY(-4px); border-color: rgba(229,50,45,.6); }
+  .card h2 { font-size: 1.25rem; margin-bottom: .5rem; }
+  .card p { color: #94a3b8; font-size: .95rem; line-height: 1.5; }
+  .card .go { display: inline-block; margin-top: 1rem; color: #E5322D; font-weight: 600; }
+  footer { margin-top: 3rem; color: #64748b; font-size: .85rem; text-align: center; }
+  footer a { color: #E5322D; text-decoration: none; }
+</style>
+</head>
+<body>
+  <h1>Portfolio <span class="accent">Collection</span></h1>
+  <p class="lead">A curated collection of modern, visually striking portfolio websites showcasing glassmorphism design trends and cutting-edge frontend techniques.</p>
+  <div class="grid">
+    <a class="card" href="./Freebuff/">
+      <h2>Freebuff</h2>
+      <p>Design system documentation with a polished landing page — tokens, components and usage guidelines.</p>
+      <span class="go">View live &rarr;</span>
+    </a>
+    <a class="card" href="./portfolio-glassmorphism-1/">
+      <h2>Glassmorphism Portfolio 1</h2>
+      <p>First glassmorphism portfolio implementation — frosted-glass cards, smooth animations, responsive layout.</p>
+      <span class="go">View live &rarr;</span>
+    </a>
+    <a class="card" href="./portfolio-glassmorphism-2/">
+      <h2>Glassmorphism Portfolio 2</h2>
+      <p>Second glassmorphism portfolio iteration — refined aesthetic, alternate layout and interactions.</p>
+      <span class="go">View live &rarr;</span>
+    </a>
+  </div>
+  <footer>Built by Girish Lade &mdash; <a href="https://ladestack.in">ladestack.in</a></footer>
+</body>
+</html>
